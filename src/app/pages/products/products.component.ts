@@ -48,9 +48,9 @@ export class ProductsComponent {
   };
   createProduct(){
     const data = {
-      "title": "Zapatos",
-      "price": 30,
-      "description": "Zapatos / Oscar Nogales",
+      "title": "Carteras cuerina ",
+      "price":60,
+      "description": "Carteras / Darlin Allauca",
       "categoryId": 1,
       "images": [
         "https://picsum.photos/640/640?r=4213",
@@ -67,9 +67,9 @@ export class ProductsComponent {
   };
   updateProduct(){
     const data = {
-      "title": "Zapatos New Balance",
-      "price": 60,
-      "description": "Zapatos 530 / Oscar Nogales"
+      "title": "carteras de cuerina",
+      "price": 59,
+      "description": "Carteras de cuerina color negro / Darlin Allauca"
     }
     const url = 'https://api.escuelajs.co/api/v1/products/459';
     this.httpClient.put(url, data).subscribe(
